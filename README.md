@@ -196,6 +196,7 @@ For instance, to determine the distribution of age groups, I can simply count th
 ![image](https://github.com/user-attachments/assets/32ac5966-0d58-4f24-94b5-535b95221a5a)
 
 3. Ethnicity
+   
 The respondents had 9 ethnicity options from which they were supposed to pick only one.
 				
 ![image](https://github.com/user-attachments/assets/6bb9eee8-434e-426f-9a54-25a15139fcf1)
