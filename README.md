@@ -143,7 +143,9 @@ After formatting the title header, it was discovered that each column contained 
 Typing error
 Cells in the City column that contained '?' as data were filtered out.
 
-
+Data formatting
+In the dataset, some columns stored respondent responses as either "INCLUDED" or "NOT_INCLUDED". When creating a pivot table, I need these columns to display the specific issues selected by respondents. 
+For instance, if a respondent chose "unemployment", I want to count all instances of "unemployment" and have it displayed accordingly. To achieve this, I used ```CTRL+H``` to find and replace all occurrences of "INCLUDED" with the column names, and "NOT_INCLUDED" with "No".
 
 
 
