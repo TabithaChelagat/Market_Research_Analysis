@@ -137,9 +137,11 @@ After unmerging the cells and simplifying the column names for better readabilit
 | Annual Household Income                               | 
 | Political views                                       | 
 
+Missing values
+After formatting the title header, it was discovered that each column contained three missing values, which were subsequently filtered out.
 
-
-
+Typing error
+Cells in the City column that contained '?' as data were filtered out.
 
 
 
