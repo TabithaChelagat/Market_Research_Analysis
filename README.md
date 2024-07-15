@@ -146,7 +146,7 @@ Cells in the City column that contained '?' as data were filtered out.
 
 Data formatting
 
-In the dataset, this columns had stored respondent responses as either "INCLUDED" or "NOT_INCLUDED".
+In the dataset, these columns had stored respondent responses as either "INCLUDED" or "NOT_INCLUDED".
 
 ![image](https://github.com/user-attachments/assets/dff3e34c-2eee-4e75-a7f2-5c00a3b61ef7)
 
@@ -160,4 +160,20 @@ Similarly, for the social issues that respondents are passionate about, instance
 ![image](https://github.com/user-attachments/assets/07cd7e62-1d17-464c-8c49-1498dde346ba)
 
 ![image](https://github.com/user-attachments/assets/cb0e7c26-7da8-4b32-b5c6-fcd5c7b41dd8)
+
+Transforming wide data to long data
+
+The age grouping columns have there data stored in wide format.
+
+![image](https://github.com/user-attachments/assets/df6d88d0-e59c-4f01-9f23-3a239edeaed3)
+
+I transformed the data from a wide format to a long format to facilitate easier analysis. Now, the data is aggregated into a single column rather than its initial three separate columns. 
+For instance, to determine the distribution of age groups, I can simply count the number of rows in the new 'age' column within each category.
+
+![image](https://github.com/user-attachments/assets/32ac5966-0d58-4f24-94b5-535b95221a5a)
+
+
+
+
+
 
