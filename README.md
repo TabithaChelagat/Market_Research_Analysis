@@ -187,6 +187,11 @@ For instance, to determine the distribution of age groups, I can simply count th
 
 ![image](https://github.com/user-attachments/assets/32ac5966-0d58-4f24-94b5-535b95221a5a)
 
+The data is ready for analysis.
+
+
+DATA ANALYSIS
+
 
 
 
