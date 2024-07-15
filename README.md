@@ -196,8 +196,14 @@ For instance, to determine the distribution of age groups, I can simply count th
 ![image](https://github.com/user-attachments/assets/32ac5966-0d58-4f24-94b5-535b95221a5a)
 
 3. Ethnicity
+The respondents had 9 ethnicity options from which they were supposed to pick only one.
+				
+![image](https://github.com/user-attachments/assets/6bb9eee8-434e-426f-9a54-25a15139fcf1)
 
+TThe wide format is redundant  because each respondent can only choose one ethnicity, yet there's a column for each of the nine ethnicities. This redundancy wastes space and makes the data file larger.  
+Transforming the data to long format eliminates these unnecessary columns, making the data file more compact.
 
+![image](https://github.com/user-attachments/assets/1671d07d-8f0d-4e07-a390-a89548af2902)
 
 
 The data is ready for analysis.
