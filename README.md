@@ -163,24 +163,27 @@ Similarly, for the social issues that respondents are passionate about, instance
 
 Transforming wide data to long data
 
-There are two data attributes that will be tranformed from wide to long.
+There are two data attributes that will be tranformed from wide to long format for easier data analysis.
 
 1. Social issues taht respondents are passionate about.
+   
 The data is currently in wide format, where each column represents a social issue. This format makes it difficult to count the occurrence of each social issue that respondents are passionate about. Especially respondents who selected more than one issue.
 			
 ![image](https://github.com/user-attachments/assets/d7c59fb5-2d2e-406d-add5-2475dc5d0bac)
 
-By transforming the data to long format, each respondent's selection is represented in a separate row. This makes it possible to count the total number of times each social issue was selected.
+By transforming the data to long format, each respondent's selection is represented in a separate row, Social issues. This makes it possible to count the total number of times each social issue was selected.
 
 ![image](https://github.com/user-attachments/assets/ff9eb49a-4de1-4394-8fa3-a20e36dc80bd)
 
 
 2. The age groupings
-The age groupings
+   
+The age groupings are also stored in wide format distributed in 3 columns.
+
 ![image](https://github.com/user-attachments/assets/df6d88d0-e59c-4f01-9f23-3a239edeaed3)
 
-I transformed the data from a wide format to a long format to facilitate easier analysis. Now, the data is aggregated into a single column rather than its initial three separate columns. 
-For instance, to determine the distribution of age groups, I can simply count the number of rows in the new 'age' column within each category.
+Now, the data is aggregated into a single column rather than its initial three separate columns. 
+For instance, to determine the distribution of age groups, I can simply count the number of rows in the new 'age2' column within each category.
 
 ![image](https://github.com/user-attachments/assets/32ac5966-0d58-4f24-94b5-535b95221a5a)
 
