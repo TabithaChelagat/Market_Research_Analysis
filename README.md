@@ -75,6 +75,7 @@ Duplicates:
 The dataset has no duplicates.
 
 Data cleaning
+
 We noticed that the title header had merged cells, which would prevent us from creating a pivot table for data analysis. 
 To solve this, the cells were unmerged, and the column names were edited to a single row and later simplified for better readability. 
 After unmerging the cells and simplifying the column names for better readability, here are the updated column names in a clear table format:
@@ -144,7 +145,10 @@ Typing error
 Cells in the City column that contained '?' as data were filtered out.
 
 Data formatting
-In the dataset, some columns stored respondent responses as either "INCLUDED" or "NOT_INCLUDED". When creating a pivot table, I need these columns to display the specific issues selected by respondents. 
+
+In the dataset, Between 35 and 50 years	Female 	Male 	Over 50 years	Under 35 years
+![image](https://github.com/user-attachments/assets/e4bddbce-5c56-4497-955b-79e8dc7c0b13)
+stored respondent responses as either "INCLUDED" or "NOT_INCLUDED". When creating a pivot table, I need these columns to display the specific issues selected by respondents. 
 For instance, if a respondent chose "unemployment", I want to count all instances of "unemployment" and have it displayed accordingly. To achieve this, I used ```CTRL+H``` to find and replace all occurrences of "INCLUDED" with the column names, and "NOT_INCLUDED" with "No".
 
 
