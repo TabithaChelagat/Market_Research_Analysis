@@ -146,11 +146,14 @@ Cells in the City column that contained '?' as data were filtered out.
 
 Data formatting
 
-In the dataset, Between 35 and 50 years	Female 	Male 	Over 50 years	Under 35 years
-![image](https://github.com/user-attachments/assets/e4bddbce-5c56-4497-955b-79e8dc7c0b13)
-stored respondent responses as either "INCLUDED" or "NOT_INCLUDED". When creating a pivot table, I need these columns to display the specific issues selected by respondents. 
-For instance, if a respondent chose "unemployment", I want to count all instances of "unemployment" and have it displayed accordingly. To achieve this, I used ```CTRL+H``` to find and replace all occurrences of "INCLUDED" with the column names, and "NOT_INCLUDED" with "No".
+In the dataset, this columns had stored respondent responses as either "INCLUDED" or "NOT_INCLUDED".
 
+![image](https://github.com/user-attachments/assets/dff3e34c-2eee-4e75-a7f2-5c00a3b61ef7)
+
+When creating a pivot table, I need these columns to display the specific issues selected by respondents. 
+For instance, if a respondent chose "Over 50 years", I want to count all instances of "Over 50 years" and have it displayed accordingly. To achieve this, I used ```CTRL+H``` to find and replace all occurrences of "INCLUDED" with the column names, and "NOT_INCLUDED" with blanks.
+
+![image](https://github.com/user-attachments/assets/349a1e42-2cd6-42d2-8665-f551e13cf727)
 
 
 
