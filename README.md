@@ -74,9 +74,68 @@ The city column contains typos, with two values stored as '?'.
 Duplicates:
 The dataset has no duplicates.
 
-D
+Data cleaning
+We noticed that the title header had merged cells, which would prevent us from creating a pivot table for data analysis. 
+To solve this, the cells were unmerged, and the column names were edited to a single row and later simplified for better readability. 
+After unmerging the cells and simplifying the column names for better readability, here are the updated column names in a clear table format:
 
+After unmerging the cells and simplifying the column names for better readability, here are the updated column names in a clear table format:
 
+| Column Name                                           | 
+|-------------------------------------------------------|
+| Respondent identifier                                 | 
+| Start time                                            | 
+| End time                                              | 
+| State                                                 | 
+| Region                                                | 
+| City                                                  | 
+| GPS coordinates                                       | 
+| Login parameters                                      | 
+| S1 - Total                                            | 
+| Between 35 and 50 years                               | 
+| Female                                                | 
+| Male                                                  | 
+| Over 50 years                                         | 
+| Under 35 years                                        | 
+| Which of the following statements resonates with you most? | 
+| Climate change & other environmental issues          | 
+| Civil rights & racial discrimination                  | 
+| Gender inequality                                     | 
+| Healthcare inaccessibility                            | 
+| Gun violence                                          | 
+| Poverty & food insecurity                             | 
+| Unemployment                                          | 
+| Other social issues                                   | 
+| What other social issue(s) are you passionate about?  | 
+| Companies ability to make positive change            | 
+| How companies can make positive change               | 
+| Reasons for no positive social change                | 
+| Activism concerns towards a company                  | 
+| Concern type                                          | 
+| Companies responsibility to speak out on social issues | 
+| Why companies should speak out on social changes     | 
+| Specific issues to be addressed by companies         | 
+| Why companies should not speak on social issues      | 
+| Specific social issues companies should not speak out on, Y/N | 
+| Specific issues companies should not speak out on   | 
+| Purchase likelihood agree                             | 
+| Purchase likelihood disagree                          | 
+| Purchase likelihood undisclosed                       | 
+| Actively Seek Supportive Companies When Purchasing   | 
+| Age                                                   | 
+| Gender                                                | 
+| Black or African American                             | 
+| White                                                 | 
+| Asian                                                 | 
+| Hispanic                                              | 
+| Middle Eastern                                        | 
+| Native American or Alaska Native                      | 
+| Native Hawaiian or Pacific Islander                   | 
+| Other Ethnicity                                       | 
+| Undisclosed Ethnicity                                 | 
+| Education level                                       | 
+| Annual Household Income                               | 
+| Political views                                       | 
 
 
 
