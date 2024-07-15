@@ -163,8 +163,20 @@ Similarly, for the social issues that respondents are passionate about, instance
 
 Transforming wide data to long data
 
-The age grouping columns have there data stored in wide format.
+There are two data attributes that will be tranformed from wide to long.
 
+1. Social issues taht respondents are passionate about.
+The data is currently in wide format, where each column represents a social issue. This format makes it difficult to count the occurrence of each social issue that respondents are passionate about. Especially respondents who selected more than one issue.
+			
+![image](https://github.com/user-attachments/assets/d7c59fb5-2d2e-406d-add5-2475dc5d0bac)
+
+By transforming the data to long format, each respondent's selection is represented in a separate row. This makes it possible to count the total number of times each social issue was selected.
+
+![image](https://github.com/user-attachments/assets/ff9eb49a-4de1-4394-8fa3-a20e36dc80bd)
+
+
+2. The age groupings
+The age groupings
 ![image](https://github.com/user-attachments/assets/df6d88d0-e59c-4f01-9f23-3a239edeaed3)
 
 I transformed the data from a wide format to a long format to facilitate easier analysis. Now, the data is aggregated into a single column rather than its initial three separate columns. 
