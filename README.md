@@ -161,9 +161,17 @@ Similarly, for the social issues that respondents are passionate about, instance
 
 ![image](https://github.com/user-attachments/assets/cb0e7c26-7da8-4b32-b5c6-fcd5c7b41dd8)
 
+Same foe the ethnicity, the responses are stored as "SELECTED" and "NOT_SELECTED".
+![image](https://github.com/user-attachments/assets/550b0f34-4607-4ea3-b606-eef5c0aab764)
+
+The "SELECTED" responses were replaced with the column names while the "NOT_SELECTED" were replaced with blanks.
+				
+![image](https://github.com/user-attachments/assets/7d66d70e-0c3c-4e95-a46f-d0e8f472d8c6)
+
+
 Transforming wide data to long data
 
-There are two data attributes that will be tranformed from wide to long format for easier data analysis.
+There are three data attributes that will be tranformed from wide to long format for easier data analysis.
 
 1. Social issues taht respondents are passionate about.
    
@@ -186,6 +194,11 @@ Now, the data is aggregated into a single column rather than its initial three s
 For instance, to determine the distribution of age groups, I can simply count the number of rows in the new 'age2' column within each category.
 
 ![image](https://github.com/user-attachments/assets/32ac5966-0d58-4f24-94b5-535b95221a5a)
+
+3. Ethnicity
+
+
+
 
 The data is ready for analysis.
 
