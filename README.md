@@ -155,7 +155,9 @@ For instance, if a respondent chose "Over 50 years", I want to count all instanc
 
 ![image](https://github.com/user-attachments/assets/349a1e42-2cd6-42d2-8665-f551e13cf727)
 
+Similarly, for the social issues that respondents are passionate about, instances marked as "SELECTED" were replaced with the respective column name, while instances marked as "NOT_SELECTED" were replaced with blanks.
 
+![image](https://github.com/user-attachments/assets/07cd7e62-1d17-464c-8c49-1498dde346ba)
 
-
+![image](https://github.com/user-attachments/assets/cb0e7c26-7da8-4b32-b5c6-fcd5c7b41dd8)
 
