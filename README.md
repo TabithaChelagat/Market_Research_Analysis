@@ -226,7 +226,18 @@ Purchase likelihood agree, purchase likelihood disagree and purchase likelihood 
 ```
 
 3. Educational level
-These column had the following categories; High School Degree or Equivalent, Less Than A High School Diploma, Bacherlor's degree, Some college, Associate degree, Postgraduate degree (Master's, Doctorate, etc.) and prefer not to say. This was grouped into 
+
+The education column was grouped as follows: "High School Degree or Equivalent" and "Less Than A High School Diploma" as "High School or Less," "Bachelor's degree" as "Bachelor's degree," "Some college" and "Associate degree" as "Some college," "Postgraduate degree (Master's, Doctorate, etc.)" as "Advanced degree," and "Prefer not to say" as "Others." 
+
+```
+=IF(OR(AF106="High School Degree or Equivalent", AF106="Less Than A High School Diploma"), "High School or Less",
+ IF(OR(AF106="Some college", AF106="Associate degree"), "Some College",
+ IF(AF106="Bachelor’s Degree", "Bachelor's Degree",
+ IF(AF106="Postgraduate degree (Master's, Doctorate, etc.)", "Advanced Degree",
+ "Others"))))
+```
+
+4.Annual Household Income
 
 
 
