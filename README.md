@@ -238,9 +238,13 @@ The education column was grouped as follows: "High School Degree or Equivalent" 
 ```
 
 4.Annual Household Income
+The categories were grouped as follows, "$100,000 to $149,999" and "$150,000 or more" as "Higher Income," "$50,000 to $74,999," "$75,000 to $99,999," "$35,000 to $49,999," and "$25,000 to $34,999" as "Middle Income," "Less than $25,000" as "Low Income," and "Others" as "Others."
 
-
-
+```
+=IF(OR(AH2="$100,000 to $149,999", AH2="$150,000 or more"), "High Income",
+  IF(OR(AH2="$50,000 to $74,999", AH2="$75,000 to $99,999", AH2="$35,000 to $49,999", AH2="$25,000 to $34,999"), "Middle Income",
+    IF(AH2="Less than $25,000", "Low Income", "Others")))
+```
 The data is ready for analysis.
 
 
