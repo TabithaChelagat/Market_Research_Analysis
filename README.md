@@ -171,9 +171,9 @@ The "SELECTED" responses were replaced with the column names while the "NOT_SELE
 
 Transforming wide data to long data
 
-There are three data attributes that will be tranformed from wide to long format for easier data analysis.
+There are three data groups that will be tranformed from wide to long format for easier data analysis.
 
-1. Social issues taht respondents are passionate about.
+1. Social issues that respondents are passionate about.
    
 The data is currently in wide format, where each column represents a social issue. This format makes it difficult to count the occurrence of each social issue that respondents are passionate about. Especially respondents who selected more than one issue.
 			
@@ -205,6 +205,29 @@ TThe wide format is redundant  because each respondent can only choose one ethni
 Transforming the data to long format eliminates these unnecessary columns, making the data file more compact.
 
 ![image](https://github.com/user-attachments/assets/1671d07d-8f0d-4e07-a390-a89548af2902)
+
+Data grouping
+
+Data grouping was done on the following columns;
+
+1. Companies responsibility to speak out on social issues
+The responses in this column were initially represented as "Somewhat agree", "Strongly agree", "Somewhat disagree", "Strongly disagree" and "Neutral". For the purpose of simplifying the analysis, I grouped these responses into broader categories: "Agree," "Disagree," and "Neutral."
+
+```
+=IF(Q5="Somewhat agree", "Agree", IF(Q5= "Strongly agree", "Agree", IF(Q5="Somewhat disagree", "Disagree", IF(Q5="Strongly disagree", "Disagree","Neutral"))))
+```
+This transformation helps in streamlining the analysis by reducing the number of categories.
+
+2. Purchase likelihood
+Purchase likelihood agree, purchase likelihood disagree and purchase likelihood undisclosed contained detailed responses such as "Very likely," "Somewhat likely," "Very unlikely," "Somewhat unlikely," and "Neutral." These were grouped into broader categories: "Neutal" ,"Likely" and "Not Likely."
+
+```
+=IF(AB7="Somewhat likely", "Likely", IF(AB7= "Very likely", "Likely", IF(AB7="Somewhat unlikely", "Not unlikely", IF(AB7="Very unlikely", "Not unlikely","Neutral"))))
+```
+
+3. Educational level
+These column had the following categories; High School Degree or Equivalent, Less Than A High School Diploma, Bacherlor's degree, Some college, Associate degree, Postgraduate degree (Master's, Doctorate, etc.) and prefer not to say. This was grouped into 
+
 
 
 The data is ready for analysis.
