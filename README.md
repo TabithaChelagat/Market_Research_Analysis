@@ -317,9 +317,9 @@ Similarities:
 
 Differences:
 
-- Healthcare: Women prioritize healthcare inaccessibility (32.96%) significantly higher than men (17.32%). This could be due to factors like women's health concerns, maternity care, or access to reproductive healthcare.
-- Environment: Climate change and environmental issues appear equally important for men (24.02%) but slightly lower for women (26.82%). This difference could be explored further to understand if there are specific environmental concerns more prominent for each gender.
-
+- Healthcare: Women prioritize healthcare inaccessibility (32.96%) significantly higher than men (17.32%). 
+- Environment: Climate change and environmental issues appear equally important for men (24.02%) but slightly lower for women (26.82%).
+  
 3. Company Responsibility to Speak Out by Education Level
 
 Results of the analysis on corporate social responsibility.
@@ -338,6 +338,31 @@ Summary of findings:
 
 Conclusion
 
+### Conclusion
+
+- **Purchasing Likelihood**:
+  - Respondents are more likely to purchase from companies that align with their social values (62%) than from those that oppose them (22%) or do not disclose their values (30%).
+
+- **Gender Differences**:
+  - Both genders prioritize poverty and food insecurity.
+  - Women are more concerned about gun violence and healthcare inaccessibility compared to men.
+
+- **Responsibility to Speak Out**:
+  - 58% believe companies should speak out on social issues.
+  - Agreement is highest among those with lower education levels and declines with higher education levels. Disagreement shows the opposite trend.
+
+Reccomendations
+
+### Recommendations
+
+1. **Align with Social Values**:
+   - Companies should publicly align with social values that resonate with their target audience to increase the likelihood of customer purchases.
+
+2. **Address Key Social Concerns**:
+   - Focus on addressing and supporting key social issues like poverty, food insecurity, gun violence, and healthcare inaccessibility, especially those that women are passionate about.
+
+3. **Communicate Social Responsibility**:
+   - Clearly communicate the company's stance on social issues, as a significant portion of respondents believe companies have a responsibility to speak out. Tailor this communication to different education levels to maximize engagement and support.
 
 
 
