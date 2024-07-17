@@ -4,16 +4,20 @@ Objective
 To understand how respondents' demographics influences their behavior towards companies' involvement in social issues.
 
 Questions to answer
-1. How do gender and age affect purchase likelihood from socially aligned companies?
-2. How does ethnicity influence seeking supportive companies?
-3. How are social issues distributed across age groups?
-4. How does education level relate to social issue resonance?
-5. How does household income impact opinions on companies' responsibility to speak out?
+1. How consumers prioritize companies aligned with their social values, and their purchasing behaviors based on companies' stances on social issues.
+
+2. Varying concerns between genders regarding social issues.
+
+3. How education levels influence consumer opinions on whether companies have a responsibility to publicly address social issues.
+
 
 Steps followed for the analysis:
 
-
-
+- Data exploration
+- Data cleaning
+- Data formatting
+- Statistical analysis
+- Data visualization
 
 Data Exploration
 
@@ -276,8 +280,7 @@ The table contains information about how likely people are to purchase from a co
 
 Summary of findings:
 
-![image](https://github.com/user-attachments/assets/7b7070ef-d66f-444e-b054-e9424468e3e8)
-
+![image](https://github.com/user-attachments/assets/9a22e8ee-37f5-4f11-8ffd-732bb6f83e10)
 
 - 22% of respondents said they are likely to purchase from a company that publicly opposses their opinions and values on social issues.
 - 41% of respondents said they are neutral on the issue.
@@ -291,7 +294,8 @@ Data on how likely people are to purchase from a company that does not disclose 
 
 Summary of findings:
 
-![image](https://github.com/user-attachments/assets/bb6087e0-ad92-46b9-983c-e95d58f0844e)
+![image](https://github.com/user-attachments/assets/8a9cca88-9903-48ae-9e2d-5a41109c8549)
+
 
 - 30% of respondents said they are likely to purchase from a company that does not disclose their values.
 - 16% of respondents said they are unlikely to purchase from a company that does not disclose their values.
