@@ -1,9 +1,9 @@
 ## Survey-Analysis
 
-#Objective
+# Objective
 To understand how respondents' demographics influences their behavior towards companies' involvement in social issues.
 
-##Questions to answer
+## Questions to answer
 1. How consumers prioritize companies aligned with their social values, and their purchasing behaviors based on companies' stances on social issues.
 
 2. Varying concerns between genders regarding social issues.
@@ -11,7 +11,7 @@ To understand how respondents' demographics influences their behavior towards co
 3. How education levels influence consumer opinions on whether companies have a responsibility to publicly address social issues.
 
 
-###Steps followed for the analysis:
+### Steps followed for the analysis:
 
 - Data exploration
 - Data cleaning
@@ -19,7 +19,7 @@ To understand how respondents' demographics influences their behavior towards co
 - Statistical analysis
 - Data visualization
 
-#*Data Exploration*
+# *Data Exploration*
 
 Columns:
 The dataset has 40 columns. Each column represents a specific aspect of the respondents' demographics or their opinions on companies' involvement in social issues. There are 216 entries for each column.
