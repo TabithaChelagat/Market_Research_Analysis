@@ -305,6 +305,11 @@ A table representing ocial issues and the percentage of men and women who are co
 
 Summary of findings:
 
+Women are passionate about 60% of the social issues identified in the data.
+
+![image](https://github.com/user-attachments/assets/2ef3d1bd-7aee-4427-88a1-a0d2fe2fe84f)
+
+
 Similarities:
 
 - Poverty and Food Insecurity: This ranks as the top concern for both genders, highlighting a shared worry about basic human needs.
@@ -325,6 +330,7 @@ Summary of findings:
 
 ![image](https://github.com/user-attachments/assets/2240ef3b-7454-47d2-bb29-69533155c1a8)
 
+- From the data, 58% of the respondents agree that companies have a responsibility to speak out on social issues.
 - Agreement is highest among those with a high school education or less (22.01%).
 - Agreement progressively declines with higher levels of education (some college: 19.14%, bachelor's degree: 12.44%, advanced degree: 3.83%).
 -The trend is reversed for disagreement. Disagreement is highest among those with a bachelor's degree (7.18%) and progressively declines with lower levels of education (some college: 5.26%, high school or less: 3.35%, advanced degree: 1.44%).
