@@ -91,7 +91,7 @@ The dataset has no duplicates.
 I noticed that the title header had merged cells, which would prevent me from creating a pivot table for data analysis. 
 To solve this, the cells were unmerged, and the column names were edited to a single row and later simplified for better readability. 
 
-After unmerging the cells and simplifying the column names for better readability, here are the updated column names in a clear table format:
+Updated column names in a clear table format:
 
 | Column Name                                           | 
 |-------------------------------------------------------|
