@@ -69,21 +69,22 @@ The dataset has 40 columns. Each column represents a specific aspect of the resp
 | CHQ17 - Political views               | Respondents' rating of their political views                                                          | 216     |
 | ES1 - Complete                        | Completion status of the survey                                                                       | 216     |
 
-**1. Checking for missing values**
+**2. Checking for missing values**
 
 Filters were applied to the entire dataset to check for missing values in specific columns. Missing values were found in the title header, with some columns having 3 missing values while others had 2.
 
-**2.  Typing errors**
+**3.  Typing errors**
 
 The city column contains typos, with two values stored as '?'.
 
-**3. Duplicates**
+**4. Duplicates**
 
 The dataset has no duplicates.
 
 # DATA CLEANING
 
 **1. Column header**
+
 I noticed that the title header had merged cells, which would prevent me from creating a pivot table for data analysis. 
 To solve this, the cells were unmerged, and the column names were edited to a single row and later simplified for better readability. 
 
@@ -146,6 +147,7 @@ After unmerging the cells and simplifying the column names for better readabilit
 | Political views                                       | 
 
 **2. Missing values**
+
 After formatting the title header, it was discovered that each column contained three missing values, which were subsequently filtered out.
 
 **3. Typing error**
@@ -169,9 +171,11 @@ Similarly, for the social issues that respondents are passionate about, instance
 
 ![image](https://github.com/user-attachments/assets/07cd7e62-1d17-464c-8c49-1498dde346ba)
 
+After replacement, the data looked as displayed.
+
 ![image](https://github.com/user-attachments/assets/cb0e7c26-7da8-4b32-b5c6-fcd5c7b41dd8)
 
-Same foe the ethnicity, the responses are stored as "SELECTED" and "NOT_SELECTED".
+Same for the ethnicity, the responses are stored as "SELECTED" and "NOT_SELECTED".
 ![image](https://github.com/user-attachments/assets/550b0f34-4607-4ea3-b606-eef5c0aab764)
 
 The "SELECTED" responses were replaced with the column names while the "NOT_SELECTED" were replaced with blanks.
@@ -189,7 +193,7 @@ The data is currently in wide format, where each column represents a social issu
 			
 ![image](https://github.com/user-attachments/assets/d7c59fb5-2d2e-406d-add5-2475dc5d0bac)
 
-By transforming the data to long format, each respondent's selection is represented in a separate row, Social issues. This makes it possible to count the total number of times each social issue was selected.
+By transforming the data to long format, each respondent's selection is represented in one column, Social issues. This makes it possible to count the total number of times each social issue was selected.
 
 ![image](https://github.com/user-attachments/assets/ff9eb49a-4de1-4394-8fa3-a20e36dc80bd)
 
@@ -249,6 +253,7 @@ The education column was grouped as follows: "High School Degree or Equivalent" 
 ```
 
 **- Annual Household Income**
+
 The categories were grouped as follows, "$100,000 to $149,999" and "$150,000 or more" as "Higher Income," "$50,000 to $74,999," "$75,000 to $99,999," "$35,000 to $49,999," and "$25,000 to $34,999" as "Middle Income," "Less than $25,000" as "Low Income," and "Others" as "Others."
 
 ```
