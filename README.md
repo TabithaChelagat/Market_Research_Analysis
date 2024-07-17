@@ -252,22 +252,37 @@ DATA ANALYSIS
  1. Purchase likelihood
 
     Purchase likelihood agree
+    
 The table breaks down how likely respondents are to purchase from a company based on the company's alignment with the respondent's social values.
-	
-![image](https://github.com/user-attachments/assets/4332bb66-09ba-4b55-a4dd-270dcfad8ce1)
+
+![image](https://github.com/user-attachments/assets/ed8aa112-c4e6-47c9-ac22-bc21c11a78a7)
+
 
 Summary of findings:
 
-![image](https://github.com/user-attachments/assets/2c3bbb8a-ceca-4bd0-8ce8-860e92122a49)
+![image](https://github.com/user-attachments/assets/cd733234-450d-4c4d-9841-7e3127a47780)
+
 
 - 62% of respondents said they were likely to purchase from a company aligning with their social values.
 - 33% of respondents said they were neutral on the issue.
 - 5% of respondents said they were not likely to purchase from a company aligning with their social values.
 
 
+ Purchase likelihood disagree
 
+The table contains information about how likely people are to purchase from a company that publicly opposses their opinions and values on social issues.  
 
+![image](https://github.com/user-attachments/assets/73ddb849-bd1f-4c9d-9bfc-a767f05a9dfe)
 
+Summary of findings:
+
+![image](https://github.com/user-attachments/assets/df0b326a-6f0b-4fe3-a7ba-b6c9629670b0)
+
+- 22% of respondents said they are likely to purchase from a company that publicly opposses their opinions and values on social issues.
+- 41% of respondents said they are neutral on the issue.
+- 37% of respondents said they are unlikely to purchase from a company that publicly opposses their opinions and values on social issues.
+
+ Purchase Likelihood undisclosed
 
 
 
