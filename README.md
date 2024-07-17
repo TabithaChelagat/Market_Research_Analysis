@@ -69,22 +69,21 @@ The dataset has 40 columns. Each column represents a specific aspect of the resp
 | CHQ17 - Political views               | Respondents' rating of their political views                                                          | 216     |
 | ES1 - Complete                        | Completion status of the survey                                                                       | 216     |
 
-Checking for missing values:
+**2. Checking for missing values**
 
 Filters were applied to the entire dataset to check for missing values in specific columns. Missing values were found in the title header, with some columns having 3 missing values while others had 2.
 
-Typing errors:
+**3. Typing errors**
 
 The city column contains typos, with two values stored as '?'.
 
-Duplicates:
+**4. Duplicates**
 The dataset has no duplicates.
 
-Data cleaning
+# DATA CLEANING
 
-We noticed that the title header had merged cells, which would prevent us from creating a pivot table for data analysis. 
+I noticed that the title header had merged cells, which would prevent me from creating a pivot table for data analysis. 
 To solve this, the cells were unmerged, and the column names were edited to a single row and later simplified for better readability. 
-After unmerging the cells and simplifying the column names for better readability, here are the updated column names in a clear table format:
 
 After unmerging the cells and simplifying the column names for better readability, here are the updated column names in a clear table format:
 
@@ -144,13 +143,13 @@ After unmerging the cells and simplifying the column names for better readabilit
 | Annual Household Income                               | 
 | Political views                                       | 
 
-Missing values
+**1. Missing values**
 After formatting the title header, it was discovered that each column contained three missing values, which were subsequently filtered out.
 
-Typing error
+**2. Typing error**
 Cells in the City column that contained '?' as data were filtered out.
 
-Data formatting
+**3. Data formatting**
 
 In the dataset, these columns had stored respondent responses as either "INCLUDED" or "NOT_INCLUDED".
 
@@ -175,11 +174,11 @@ The "SELECTED" responses were replaced with the column names while the "NOT_SELE
 ![image](https://github.com/user-attachments/assets/7d66d70e-0c3c-4e95-a46f-d0e8f472d8c6)
 
 
-Transforming wide data to long data
+**4. Transforming wide data to long data**
 
 There are three data groups that will be tranformed from wide to long format for easier data analysis.
 
-1. Social issues that respondents are passionate about.
+*Social issues that respondents are passionate about*
    
 The data is currently in wide format, where each column represents a social issue. This format makes it difficult to count the occurrence of each social issue that respondents are passionate about. Especially respondents who selected more than one issue.
 			
@@ -190,7 +189,7 @@ By transforming the data to long format, each respondent's selection is represen
 ![image](https://github.com/user-attachments/assets/ff9eb49a-4de1-4394-8fa3-a20e36dc80bd)
 
 
-2. The age groupings
+*The age groupings*
    
 The age groupings are also stored in wide format distributed in 3 columns.
 
@@ -201,22 +200,23 @@ For instance, to determine the distribution of age groups, I can simply count th
 
 ![image](https://github.com/user-attachments/assets/32ac5966-0d58-4f24-94b5-535b95221a5a)
 
-3. Ethnicity
+*Ethnicity*
    
 The respondents had 9 ethnicity options from which they were supposed to pick only one.
 				
 ![image](https://github.com/user-attachments/assets/6bb9eee8-434e-426f-9a54-25a15139fcf1)
 
-TThe wide format is redundant  because each respondent can only choose one ethnicity, yet there's a column for each of the nine ethnicities. This redundancy wastes space and makes the data file larger.  
+The wide format is redundant  because each respondent can only choose one ethnicity, yet there's a column for each of the nine ethnicities. This redundancy wastes space and makes the data file larger.  
 Transforming the data to long format eliminates these unnecessary columns, making the data file more compact.
 
 ![image](https://github.com/user-attachments/assets/1671d07d-8f0d-4e07-a390-a89548af2902)
 
-Data grouping
+**5. Data grouping**
 
 Data grouping was done on the following columns;
 
-1. Companies responsibility to speak out on social issues
+*Companies responsibility to speak out on social issues*
+
 The responses in this column were initially represented as "Somewhat agree", "Strongly agree", "Somewhat disagree", "Strongly disagree" and "Neutral". For the purpose of simplifying the analysis, I grouped these responses into broader categories: "Agree," "Disagree," and "Neutral."
 
 ```
@@ -224,14 +224,14 @@ The responses in this column were initially represented as "Somewhat agree", "St
 ```
 This transformation helps in streamlining the analysis by reducing the number of categories.
 
-2. Purchase likelihood
+*Purchase likelihood*
 Purchase likelihood agree, purchase likelihood disagree and purchase likelihood undisclosed contained detailed responses such as "Very likely," "Somewhat likely," "Very unlikely," "Somewhat unlikely," and "Neutral." These were grouped into broader categories: "Neutal" ,"Likely" and "Not Likely."
 
 ```
 =IF(AB7="Somewhat likely", "Likely", IF(AB7= "Very likely", "Likely", IF(AB7="Somewhat unlikely", "Not unlikely", IF(AB7="Very unlikely", "Not unlikely","Neutral"))))
 ```
 
-3. Educational level
+*Educational level*
 
 The education column was grouped as follows: "High School Degree or Equivalent" and "Less Than A High School Diploma" as "High School or Less," "Bachelor's degree" as "Bachelor's degree," "Some college" and "Associate degree" as "Some college," "Postgraduate degree (Master's, Doctorate, etc.)" as "Advanced degree," and "Prefer not to say" as "Others." 
 
@@ -243,7 +243,7 @@ The education column was grouped as follows: "High School Degree or Equivalent" 
  "Others"))))
 ```
 
-4.Annual Household Income
+*Annual Household Income*
 The categories were grouped as follows, "$100,000 to $149,999" and "$150,000 or more" as "Higher Income," "$50,000 to $74,999," "$75,000 to $99,999," "$35,000 to $49,999," and "$25,000 to $34,999" as "Middle Income," "Less than $25,000" as "Low Income," and "Others" as "Others."
 
 ```
@@ -254,17 +254,18 @@ The categories were grouped as follows, "$100,000 to $149,999" and "$150,000 or 
 The data is ready for analysis.
 
 
-DATA ANALYSIS
- 1. Purchase likelihood
+# DATA ANALYSIS
 
-    Purchase likelihood agree
+**1. Purchase likelihood**
+
+*#### Purchase likelihood agree*
     
 The table breaks down how likely respondents are to purchase from a company based on the company's alignment with the respondent's social values.
 
 ![image](https://github.com/user-attachments/assets/ed8aa112-c4e6-47c9-ac22-bc21c11a78a7)
 
 
-Summary of findings:
+*Summary of findings:*
 
 ![image](https://github.com/user-attachments/assets/cd733234-450d-4c4d-9841-7e3127a47780)
 
@@ -274,13 +275,13 @@ Summary of findings:
 - 5% of respondents said they were not likely to purchase from a company aligning with their social values.
 
 
- Purchase likelihood disagree
+ *#### Purchase likelihood disagree*
 
 The table contains information about how likely people are to purchase from a company that publicly opposses their opinions and values on social issues.  
 
 ![image](https://github.com/user-attachments/assets/73ddb849-bd1f-4c9d-9bfc-a767f05a9dfe)
 
-Summary of findings:
+*Summary of findings:*
 
 ![image](https://github.com/user-attachments/assets/9a22e8ee-37f5-4f11-8ffd-732bb6f83e10)
 
@@ -288,13 +289,13 @@ Summary of findings:
 - 41% of respondents said they are neutral on the issue.
 - 37% of respondents said they are unlikely to purchase from a company that publicly opposses their opinions and values on social issues.
 
- Purchase Likelihood undisclosed
+*#### Purchase Likelihood undisclosed*
 
 Data on how likely people are to purchase from a company that does not disclose its opinions and values on social issues. 
 
 ![image](https://github.com/user-attachments/assets/91a6be56-c5e9-4378-a1f2-4e371c1283c8)
 
-Summary of findings:
+*Summary of findings:*
 
 ![image](https://github.com/user-attachments/assets/8a9cca88-9903-48ae-9e2d-5a41109c8549)
 
@@ -303,36 +304,36 @@ Summary of findings:
 - 16% of respondents said they are unlikely to purchase from a company that does not disclose their values.
 - 54% of respondents said they are neutral on the issue.
 
-2. Social Issues Passion by Gender
+**2. Social Issues Passion by Gender**
 
 A table representing ocial issues and the percentage of men and women who are concerned about them.
 
 ![image](https://github.com/user-attachments/assets/6ae13f4a-75b7-4656-9a57-e3e599f19d88)
 
-Summary of findings:
+*####Summary of findings:*
 
 Women are passionate about 60% of the social issues identified in the data.
 
 ![image](https://github.com/user-attachments/assets/2ef3d1bd-7aee-4427-88a1-a0d2fe2fe84f)
 
 
-Similarities:
+*Gender similarities:*
 
 - Poverty and Food Insecurity: This ranks as the top concern for both genders, highlighting a shared worry about basic human needs.
 - Gun Violence: Both genders are passionate about reducing gun violence, though it's a more prominent concern for women (30.73% vs. 19.55%).
 
-Differences:
+*Gender differences:*
 
 - Healthcare: Women prioritize healthcare inaccessibility (32.96%) significantly higher than men (17.32%). 
 - Environment: Climate change and environmental issues appear equally important for men (24.02%) but slightly lower for women (26.82%).
   
-3. Company Responsibility to Speak Out by Education Level
+**3. Company Responsibility to Speak Out by Education Level**
 
 Results of the analysis on corporate social responsibility.
 
 ![image](https://github.com/user-attachments/assets/ae8389a7-4d08-4adb-a4fe-8c263a9161f3)
 
-Summary of findings:
+*Summary of findings:*
 
 ![image](https://github.com/user-attachments/assets/2240ef3b-7454-47d2-bb29-69533155c1a8)
 
@@ -342,9 +343,7 @@ Summary of findings:
 -The trend is reversed for disagreement. Disagreement is highest among those with a bachelor's degree (7.18%) and progressively declines with lower levels of education (some college: 5.26%, high school or less: 3.35%, advanced degree: 1.44%).
 - Neutral responses are fairly consistent across all education levels (ranging between 3.35% and 10.53%).
 
-Conclusion
-
-### Conclusion
+# CONCLUSION
 
 - **Purchasing Likelihood**:
   - Respondents are more likely to purchase from companies that align with their social values (62%) than from those that oppose them (22%) or do not disclose their values (30%).
@@ -357,9 +356,7 @@ Conclusion
   - 58% believe companies should speak out on social issues.
   - Agreement is highest among those with lower education levels and declines with higher education levels. Disagreement shows the opposite trend.
 
-Reccomendations
-
-### Recommendations
+# Recommendations
 
 1. **Align with Social Values**:
    - Companies should publicly align with social values that resonate with their target audience to increase the likelihood of customer purchases.
