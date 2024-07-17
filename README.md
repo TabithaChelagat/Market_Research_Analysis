@@ -276,13 +276,27 @@ The table contains information about how likely people are to purchase from a co
 
 Summary of findings:
 
-![image](https://github.com/user-attachments/assets/df0b326a-6f0b-4fe3-a7ba-b6c9629670b0)
+![image](https://github.com/user-attachments/assets/7b7070ef-d66f-444e-b054-e9424468e3e8)
+
 
 - 22% of respondents said they are likely to purchase from a company that publicly opposses their opinions and values on social issues.
 - 41% of respondents said they are neutral on the issue.
 - 37% of respondents said they are unlikely to purchase from a company that publicly opposses their opinions and values on social issues.
 
  Purchase Likelihood undisclosed
+
+Data on how likely people are to purchase from a company that does not disclose its opinions and values on social issues. 
+
+![image](https://github.com/user-attachments/assets/91a6be56-c5e9-4378-a1f2-4e371c1283c8)
+
+Summary of findings:
+
+![image](https://github.com/user-attachments/assets/bb6087e0-ad92-46b9-983c-e95d58f0844e)
+
+- 30% of respondents said they are likely to purchase from a company that does not disclose their values.
+- 16% of respondents said they are unlikely to purchase from a company that does not disclose their values.
+- 54% of respondents said they are neutral on the issue.
+
 
 
 
