@@ -297,6 +297,33 @@ Summary of findings:
 - 16% of respondents said they are unlikely to purchase from a company that does not disclose their values.
 - 54% of respondents said they are neutral on the issue.
 
+2. Social Issues Passion by Gender
+
+A table representing ocial issues and the percentage of men and women who are concerned about them.
+
+![image](https://github.com/user-attachments/assets/6ae13f4a-75b7-4656-9a57-e3e599f19d88)
+
+Similarities:
+
+- Poverty and Food Insecurity: This ranks as the top concern for both genders, highlighting a shared worry about basic human needs.
+- Gun Violence: Both genders are passionate about reducing gun violence, though it's a more prominent concern for women (30.73% vs. 19.55%).
+
+Differences:
+
+- Healthcare: Women prioritize healthcare inaccessibility (32.96%) significantly higher than men (17.32%). This could be due to factors like women's health concerns, maternity care, or access to reproductive healthcare.
+- Environment: Climate change and environmental issues appear equally important for men (24.02%) but slightly lower for women (26.82%). This difference could be explored further to understand if there are specific environmental concerns more prominent for each gender.
+Summary of findings:
+
+
+
+
+
+
+
+
+
+
+
 
 
 
