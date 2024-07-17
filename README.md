@@ -1,6 +1,9 @@
 # INTRODUCTION
 
+The survey project seeks to analyze consumers' prioritization of companies aligned with their social values and their purchasing behaviors based on companies' stances on these issues. Additionally, the survey will explore varying concerns between genders regarding social issues and how education levels affect consumer opinions on whether companies have a responsibility to publicly address social issues.
+
 ### Objective
+
 To understand how respondents' demographics influences their behavior towards companies' involvement in social issues.
 
 ### Questions to answer:
