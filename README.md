@@ -22,7 +22,7 @@ To understand how respondents' demographics influences their behavior towards co
 
 # DATA EXPLORATION
 
-- **1. Columns**
+ **1. Columns**
      
 The dataset has 40 columns. Each column represents a specific aspect of the respondents' demographics or their opinions on companies' involvement in social issues. There are 216 entries for each column.
 
