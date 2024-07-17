@@ -249,6 +249,22 @@ The data is ready for analysis.
 
 
 DATA ANALYSIS
+ 1. Purchase likelihood
+
+    Purchase likelihood agree
+The table breaks down how likely respondents are to purchase from a company based on the company's alignment with the respondent's social values.
+	
+![image](https://github.com/user-attachments/assets/4332bb66-09ba-4b55-a4dd-270dcfad8ce1)
+
+Summary of findings:
+
+![image](https://github.com/user-attachments/assets/2c3bbb8a-ceca-4bd0-8ce8-860e92122a49)
+
+- 62% of respondents said they were likely to purchase from a company aligning with their social values.
+- 33% of respondents said they were neutral on the issue.
+- 5% of respondents said they were not likely to purchase from a company aligning with their social values.
+
+
 
 
 
