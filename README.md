@@ -1,9 +1,9 @@
-### INTRODUCTION
+# INTRODUCTION
 
-# Objective
+### Objective
 To understand how respondents' demographics influences their behavior towards companies' involvement in social issues.
 
-# Questions to answer:
+### Questions to answer:
 
 1. How consumers prioritize companies aligned with their social values, and their purchasing behaviors based on companies' stances on social issues.
 
@@ -12,7 +12,7 @@ To understand how respondents' demographics influences their behavior towards co
 3. How education levels influence consumer opinions on whether companies have a responsibility to publicly address social issues.
 
 
-# Steps followed for the analysis:
+### Steps followed for the analysis:
 
 - Data exploration
 - Data cleaning
@@ -20,7 +20,7 @@ To understand how respondents' demographics influences their behavior towards co
 - Statistical analysis
 - Data visualization
 
-### DATA EXPLORATION
+# DATA EXPLORATION
 
 - **1. Columns**
      
