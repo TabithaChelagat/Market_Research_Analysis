@@ -303,6 +303,8 @@ A table representing ocial issues and the percentage of men and women who are co
 
 ![image](https://github.com/user-attachments/assets/6ae13f4a-75b7-4656-9a57-e3e599f19d88)
 
+Summary of findings:
+
 Similarities:
 
 - Poverty and Food Insecurity: This ranks as the top concern for both genders, highlighting a shared worry about basic human needs.
@@ -312,12 +314,23 @@ Differences:
 
 - Healthcare: Women prioritize healthcare inaccessibility (32.96%) significantly higher than men (17.32%). This could be due to factors like women's health concerns, maternity care, or access to reproductive healthcare.
 - Environment: Climate change and environmental issues appear equally important for men (24.02%) but slightly lower for women (26.82%). This difference could be explored further to understand if there are specific environmental concerns more prominent for each gender.
+
+3. Company Responsibility to Speak Out by Education Level
+
+Results of the analysis on corporate social responsibility.
+
+![image](https://github.com/user-attachments/assets/ae8389a7-4d08-4adb-a4fe-8c263a9161f3)
+
 Summary of findings:
 
+![image](https://github.com/user-attachments/assets/2240ef3b-7454-47d2-bb29-69533155c1a8)
 
+- Agreement is highest among those with a high school education or less (22.01%).
+- Agreement progressively declines with higher levels of education (some college: 19.14%, bachelor's degree: 12.44%, advanced degree: 3.83%).
+-The trend is reversed for disagreement. Disagreement is highest among those with a bachelor's degree (7.18%) and progressively declines with lower levels of education (some college: 5.26%, high school or less: 3.35%, advanced degree: 1.44%).
+- Neutral responses are fairly consistent across all education levels (ranging between 3.35% and 10.53%).
 
-
-
+Conclusion
 
 
 
