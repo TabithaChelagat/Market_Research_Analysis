@@ -160,12 +160,16 @@ Cells in the City column that contained '?' as data were filtered out.
 
 In the dataset, these columns had stored respondent responses as either "INCLUDED" or "NOT_INCLUDED".
 
+**- Age groupings**
+
 ![image](https://github.com/user-attachments/assets/dff3e34c-2eee-4e75-a7f2-5c00a3b61ef7)
 
 When creating a pivot table, I need these columns to display the specific issues selected by respondents. 
 For instance, if a respondent chose "Over 50 years", I want to count all instances of "Over 50 years" and have it displayed accordingly. To achieve this, I used ```CTRL+H``` to find and replace all occurrences of "INCLUDED" with the column names, and "NOT_INCLUDED" with blanks.
 
 ![image](https://github.com/user-attachments/assets/349a1e42-2cd6-42d2-8665-f551e13cf727)
+
+**- Social issues**
 
 Similarly, for the social issues that respondents are passionate about, instances marked as "SELECTED" were replaced with the respective column name, while instances marked as "NOT_SELECTED" were replaced with blanks.
 
@@ -175,7 +179,10 @@ After replacement, the data looked as displayed.
 
 ![image](https://github.com/user-attachments/assets/cb0e7c26-7da8-4b32-b5c6-fcd5c7b41dd8)
 
+**- Ethinicity**
+
 Same for the ethnicity, the responses are stored as "SELECTED" and "NOT_SELECTED".
+
 ![image](https://github.com/user-attachments/assets/550b0f34-4607-4ea3-b606-eef5c0aab764)
 
 The "SELECTED" responses were replaced with the column names while the "NOT_SELECTED" were replaced with blanks.
@@ -234,6 +241,7 @@ The responses in this column were initially represented as "Somewhat agree", "St
 This transformation helps in streamlining the analysis by reducing the number of categories.
 
 **- Purchase likelihood**
+
 Purchase likelihood agree, purchase likelihood disagree and purchase likelihood undisclosed contained detailed responses such as "Very likely," "Somewhat likely," "Very unlikely," "Somewhat unlikely," and "Neutral." These were grouped into broader categories: "Neutal" ,"Likely" and "Not Likely."
 
 ```
@@ -316,7 +324,7 @@ Data on how likely people are to purchase from a company that does not disclose 
 
 **2. Social Issues Passion by Gender**
 
-A table representing ocial issues and the percentage of men and women who are concerned about them.
+A table representing social issues and the percentage of men and women who are concerned about them.
 
 ![image](https://github.com/user-attachments/assets/6ae13f4a-75b7-4656-9a57-e3e599f19d88)
 
