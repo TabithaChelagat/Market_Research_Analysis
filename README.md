@@ -327,7 +327,7 @@ Data on how likely people are to purchase from a company that does not disclose 
 
 **2. Social Issues Passion by Gender**
 
-A table representing social issues and the percentage of men and women who are concerned about them.
+A table representing social issues and the count of men and women who are concerned about them.
 
 ![image](https://github.com/user-attachments/assets/6ae13f4a-75b7-4656-9a57-e3e599f19d88)
 
@@ -375,7 +375,6 @@ Results of the analysis on corporate social responsibility.
 
 - **Responsibility to Speak Out**:
   - 58% believe companies should speak out on social issues, with 41.15% of these having some college education or less
-  - 
   - Agreement is highest among those with lower education levels and declines with higher education levels. Disagreement shows the opposite trend.
 
 # Recommendations
