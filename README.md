@@ -236,7 +236,7 @@ Data grouping was done on the following columns;
 
 **- Companies responsibility to speak out on social issues**
 
-The responses in this column were initially represented as "Somewhat agree", "Strongly agree", "Somewhat disagree", "Strongly disagree" and "Neutral". For the purpose of simplifying the analysis, I grouped these responses into broader categories: "Agree," "Disagree," and "Neutral."
+The responses in this column were initially represented as "Somewhat agree", "Strongly agree", "Somewhat disagree", "Strongly disagree" and "Neutral". For the purpose of simplifying the analysis, I grouped these responses into broader categories: ```"Agree", "Disagree", and "Neutral"```.
 
 ```
 =IF(Q5="Somewhat agree", "Agree", IF(Q5= "Strongly agree", "Agree", IF(Q5="Somewhat disagree", "Disagree", IF(Q5="Strongly disagree", "Disagree","Neutral"))))
@@ -245,7 +245,7 @@ This transformation helps in streamlining the analysis by reducing the number of
 
 **- Purchase likelihood**
 
-Purchase likelihood agree, purchase likelihood disagree and purchase likelihood undisclosed contained detailed responses such as "Very likely," "Somewhat likely," "Very unlikely," "Somewhat unlikely," and "Neutral." These were grouped into broader categories: "Neutal" ,"Likely" and "Not Likely."
+Purchase likelihood agree, purchase likelihood disagree and purchase likelihood undisclosed contained detailed responses such as "Very likely", "Somewhat likely", "Very unlikely", "Somewhat unlikely", and "Neutral", These were grouped into broader categories: ```"Neutal" ,"Likely" and "Not Likely"```.
 
 ```
 =IF(AB7="Somewhat likely", "Likely", IF(AB7= "Very likely", "Likely", IF(AB7="Somewhat unlikely", "Not unlikely", IF(AB7="Very unlikely", "Not unlikely","Neutral"))))
@@ -253,7 +253,7 @@ Purchase likelihood agree, purchase likelihood disagree and purchase likelihood 
 
 **- Educational level**
 
-The education column was grouped as follows: "High School Degree or Equivalent" and "Less Than A High School Diploma" as "High School or Less," "Bachelor's degree" as "Bachelor's degree," "Some college" and "Associate degree" as "Some college," "Postgraduate degree (Master's, Doctorate, etc.)" as "Advanced degree," and "Prefer not to say" as "Others." 
+The education column was grouped as follows: "High School Degree or Equivalent" and "Less Than A High School Diploma" as ```"High School or Less"```, "Bachelor's degree" as ```"Bachelor's degree"```, "Some college" and "Associate degree" as ```"Some college"```, "Postgraduate degree (Master's, Doctorate, etc.)" as ```"Advanced degree"```, and "Prefer not to say" as ```"Others"```.
 
 ```
 =IF(OR(AF106="High School Degree or Equivalent", AF106="Less Than A High School Diploma"), "High School or Less",
@@ -265,7 +265,7 @@ The education column was grouped as follows: "High School Degree or Equivalent" 
 
 **- Annual Household Income**
 
-The categories were grouped as follows, "$100,000 to $149,999" and "$150,000 or more" as "Higher Income," "$50,000 to $74,999," "$75,000 to $99,999," "$35,000 to $49,999," and "$25,000 to $34,999" as "Middle Income," "Less than $25,000" as "Low Income," and "Others" as "Others."
+The categories were grouped as follows, "$100,000 to $149,999" and "$150,000 or more" as ```"Higher Income"```, "$50,000 to $74,999", "$75,000 to $99,999", "$35,000 to $49,999", and "$25,000 to $34,999" as ```"Middle Income"```, "Less than $25,000" as ```"Low Income"```, and "Others" as ```"Others"```.
 
 ```
 =IF(OR(AH2="$100,000 to $149,999", AH2="$150,000 or more"), "High Income",
