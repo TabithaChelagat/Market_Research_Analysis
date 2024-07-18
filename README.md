@@ -335,8 +335,7 @@ A table representing social issues and the percentage of men and women who are c
 
 Women show a stronger passion for social issues, accounting for 60% of the identified concerns in the data.
 
-![image](https://github.com/user-attachments/assets/2ef3d1bd-7aee-4427-88a1-a0d2fe2fe84f)
-
+![image](https://github.com/user-attachments/assets/03a0ce8e-bae2-4b48-bc43-58c500b57d63)
 
 *- Gender similarities:*
 
@@ -356,7 +355,7 @@ Results of the analysis on corporate social responsibility.
 
 *Summary of findings:*
 
-![image](https://github.com/user-attachments/assets/2240ef3b-7454-47d2-bb29-69533155c1a8)
+![image](https://github.com/user-attachments/assets/1378ab55-914d-444d-964a-0f2932940156)
 
 - From the data, 58% of the respondents agree that companies have a responsibility to speak out on social issues.
 - Agreement is highest among those with a high school education or less (22.01%).
