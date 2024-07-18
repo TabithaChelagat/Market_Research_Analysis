@@ -357,10 +357,10 @@ Results of the analysis on corporate social responsibility.
 
 ![image](https://github.com/user-attachments/assets/1378ab55-914d-444d-964a-0f2932940156)
 
-- From the data, 58% of the respondents agree that companies have a responsibility to speak out on social issues.
+- From the data, 58% of the respondents agree that companies have a responsibility to speak out, with 41.15% of these having some college education or less.
 - Agreement is highest among those with a high school education or less (22.01%).
 - Agreement progressively declines with higher levels of education (some college: 19.14%, bachelor's degree: 12.44%, advanced degree: 3.83%).
--The trend is reversed for disagreement. Disagreement is highest among those with a bachelor's degree (7.18%) and progressively declines with lower levels of education (some college: 5.26%, high school or less: 3.35%, advanced degree: 1.44%).
+- The trend is reversed for disagreement. Disagreement is highest among those with a bachelor's degree (7.18%) and progressively declines with lower levels of education (some college: 5.26%, high school or less: 3.35%, advanced degree: 1.44%).
 - Neutral responses are fairly consistent across all education levels (ranging between 3.35% and 10.53%).
 
 # CONCLUSION
