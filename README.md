@@ -374,7 +374,8 @@ Results of the analysis on corporate social responsibility.
   - Women are more concerned about gun violence and healthcare inaccessibility compared to men.
 
 - **Responsibility to Speak Out**:
-  - 58% believe companies should speak out on social issues.
+  - 58% believe companies should speak out on social issues, with 41.15% of these having some college education or less
+  - 
   - Agreement is highest among those with lower education levels and declines with higher education levels. Disagreement shows the opposite trend.
 
 # Recommendations
