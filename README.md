@@ -168,7 +168,7 @@ In the dataset, these columns had stored respondent responses as either "INCLUDE
 ![image](https://github.com/user-attachments/assets/dff3e34c-2eee-4e75-a7f2-5c00a3b61ef7)
 
 When creating a pivot table, I need these columns to display the specific issues selected by respondents. 
-For instance, if a respondent chose "Over 50 years", I want to display all instances as "Over 50 years" and not as "SELECTED". 
+For instance, if a respondent chose "Over 50 years", I want to display "Over 50 years" and not "INCLUDED". 
 To achieve this, I used ```CTRL+H``` to find and replace all occurrences of "INCLUDED" with the column names, and "NOT_INCLUDED" with blanks.
 
 ![image](https://github.com/user-attachments/assets/349a1e42-2cd6-42d2-8665-f551e13cf727)
