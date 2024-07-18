@@ -333,7 +333,7 @@ A table representing social issues and the percentage of men and women who are c
 
 *Summary of findings:*
 
-Women are passionate about 60% of the social issues identified in the data.
+Women show a stronger passion for social issues, accounting for 60% of the identified concerns in the data.
 
 ![image](https://github.com/user-attachments/assets/2ef3d1bd-7aee-4427-88a1-a0d2fe2fe84f)
 
@@ -370,6 +370,7 @@ Results of the analysis on corporate social responsibility.
   - Respondents are more likely to purchase from companies that align with their social values (62%) than from those that oppose them (22%) or do not disclose their values (30%).
 
 - **Gender Differences**:
+  - Women show a stronger passion for social issues, accounting for 60% of the identified concerns in the data.
   - Both genders prioritize poverty and food insecurity.
   - Women are more concerned about gun violence and healthcare inaccessibility compared to men.
 
