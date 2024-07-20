@@ -341,7 +341,7 @@ Women show a stronger passion for social issues, accounting for 60% of the ident
 *- Gender similarities:*
 
 - Poverty and Food Insecurity: This ranks as the top concern for both genders, highlighting a shared worry about basic human needs.
-- Gun Violence: Both genders are passionate about reducing gun violence, though it's a more prominent concern for women (30.73% vs. 19.55%).
+- Gun Violence: Both genders are passionate about gun violence, though it's a more prominent concern for women (30.73% vs. 19.55%).
 
 *- Gender differences:*
 
