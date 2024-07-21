@@ -336,17 +336,18 @@ A table representing social issues and the count of men and women who are concer
 
 Women show a stronger passion for social issues, accounting for 60% of the identified concerns in the data.
 
-![image](https://github.com/user-attachments/assets/03a0ce8e-bae2-4b48-bc43-58c500b57d63)
+![image](https://github.com/user-attachments/assets/b8414fa0-3e61-4e7b-9cb4-0708bdd209fb)
+
 
 *- Gender similarities:*
 
 - Poverty and Food Insecurity: This ranks as the top concern for both genders, highlighting a shared worry about basic human needs.
-- Gun Violence: Both genders are passionate about gun violence, though it's a more prominent concern for women (30.73% vs. 19.55%).
+- Gun Violence: Both genders are passionate about gun violence, though it's a more prominent concern for women (14.55% vs. 9.1%).
 
 *- Gender differences:*
 
-- Healthcare: Women prioritize healthcare inaccessibility (32.96%) significantly higher than men (17.32%). 
-- Environment: Climate change and environmental issues appear equally important for men (24.02%) but slightly lower for women (26.82%).
+- Healthcare: Women prioritize healthcare inaccessibility (16.1%) significantly higher than men (8.3%). 
+- Environment: Climate change and environmental issues appear equally important for women (12.7%) but slightly lower for men (11.2%).
   
 **3. Company Responsibility to Speak Out by Education Level**
 
